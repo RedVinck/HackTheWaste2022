@@ -11579,7 +11579,7 @@ body {
           background-clip: text;
 }
 .masthead h2, .masthead .h2 {
-  max-width: 20rem;
+  /*max-width: 20rem;*/
   font-size: 1rem;
 }
 @media (min-width: 768px) {
@@ -11599,8 +11599,9 @@ body {
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
-    max-width: 30rem;
+   /* max-width: 30rem;*/
     font-size: 1.25rem;
+   padding-top: 60px;
   }
 }
 
