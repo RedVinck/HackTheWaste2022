@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/myStyle.css">
+<head>
+    <meta charset="UTF-8">
+    <title>CX1Z - Bestellen</title>
+    <link rel="shortcut icon" type="image/logoTab" href="img/cx1zlogoTitle.png">
+</head>
+<body>
+<header>
+    <div class="header">
+
+        <a class="logo" href="index.html"><img src="img/cx1zlogo.png" alt="logo" width="200" height="77"></a>
+        <ul class="navbar">
+
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Catalogus.html">Catalogus</a></li>
+            <li><a href="instagram.html">Instagram</a></li>
+            <li><a id="active" href="form.html">Bestellen</a></li>
+        </ul>
+
+    </div>
+</header>
+
+<section class="BestellenForm">
+    <h1 id="BestellenTitle">Bestellen</h1>
+
+    <form>
+
+        <label class="invulForm" for="achternaam">Naam*</label>
+        <input class="inputForm" type="text" id="achternaam" required>
+
+
+        <label class="invulForm" for="voornaam">Voornaam*</label>
+        <input class="inputForm" type="text" id="voornaam" name="voornaam" required>
+
+
+        <label class="invulForm" for="email">Email*</label>
+        <input class="inputForm" type="email" id="email" required>
+
+        <label class="invulForm" for="adres">Adres*</label>
+        <input class="inputForm" type="text" id="adres" required>
+
+        <h3>designs</h3>
+
+        <section class="sectionInput">
+            <input type="radio" id="CX1ZOriginal" name="CX1ZOriginal" value="CX1ZOriginal">
+            <label for="CX1ZOriginal">CX1Z Original</label>
+
+        </section>
+        <section class="sectionInput">
+            <input type="radio" id="ElMusico" name="ElMusico" value="ElMusico">
+            <label for="ElMusico">El Musico</label>
+
+        </section>
+        <section class="sectionInput">
+            <input type="radio" id="ArtsAndTales" name="design" value="ArtsAndTales">
+            <label for="ArtsAndTales">Arts and tales</label>
+
+        </section>
+        <section class="sectionInput">
+            <input type="radio" id="Skeleton" name="Skeleton" value="Skeleton">
+            <label for="Skeleton">Skeleton</label>
+
+        </section>
+        <h3>Size</h3>
+
+        <section class="sectionInput">
+            <input type="radio" id="Small" name="Small" value="Small">
+            <label for="Small">Small</label>
+
+        </section>
+        <section class="sectionInput">
+            <input type="radio" id="Medium" name="Medium" value="Medium">
+            <label for="Medium">Medium</label>
+
+        </section>
+        <section class="sectionInput">
+            <input type="radio" id="Large" name="Large" value="Large">
+            <label for="Large">Large</label>
+
+        </section>
+        <section class="sectionInput">
+            <input type="radio" id="XLarge" name="XLarge" value="XLarge">
+            <label for="XLarge">Extra Large</label>
+
+        </section>
+
+        <label for="textarea"> Extra informatie bij bestelling</label>
+        <textarea id="textarea" rows="10"  placeholder="Schrijf hier je tekst."></textarea>
+
+
+        <input class="submit" type="submit">
+        <input class="reset" type="reset" value="Reset">
+    </form>
+</section>
+</body>
+<footer>
+    <p><small>All content copyright &copy; by CX1Z.</small></p>
+</footer>
+</html>

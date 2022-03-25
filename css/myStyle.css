@@ -1,0 +1,386 @@
+@import url("reset.css");
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+
+/*dit is allemaal navigation*/
+@media only screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: #fffeee;
+        top: 0;
+        width: 100%;
+        padding: 10px 30px 10px 30px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-color: #fffeee;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 15px 10px 15px;
+        justify-content: space-between;
+    }
+
+    article {
+        margin-top: 90px;
+
+    }
+}
+
+
+.logo {
+    align-self: center;
+    min-width: 200px;
+    object-fit: cover;
+}
+
+.navbar {
+    align-self: center;
+    margin-left: auto;
+}
+
+li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#active {
+    color: #0101ff;
+
+}
+
+a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #000000;
+}
+
+a:hover {
+    color: #0101ff;
+}
+
+#newcollection {
+    white-space: nowrap;
+}
+
+#aboutus {
+    white-space: nowrap;
+}
+
+/*dit is algemene text */
+
+body {
+    background-color: #fffeee;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    padding-top: 5px;
+}
+
+body#bodyMain {
+    position: relative;
+}
+
+footer {
+    text-align: right;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 50px;
+    padding-right: 20px;
+}
+
+
+/*dit is webpage apart(index)*/
+@media only screen and (max-width: 1000px) {
+    #gridindex {
+        display: grid;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 1001px) {
+    #gridindex {
+        display: grid;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        padding: 15px;
+    }
+}
+
+#more1 {
+    display: none;
+}
+
+#more2 {
+    display: none;
+}
+
+#more3 {
+    display: none;
+}
+
+#foto1 {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.asideh2 {
+    text-align: center;
+}
+
+.pIndex {
+    text-align: center;
+}
+
+/*dit is form*/
+#BestellenTitle{
+    font-size: 40pt;
+    text-align: center;
+    padding-top: 90px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px;
+
+}
+.inputForm, textarea, select, .reset, .submit {
+    display: block;
+    background-color: #fffeee;
+    margin-bottom: 15px;
+    width: 100%;
+    line-height: 18px;
+    border: 1px solid #AAA;
+    border-radius: 8px;
+}
+
+::placeholder, input, select {
+    font-size: 15px;
+    padding: 12px;
+}
+textarea {
+    font-size: 15px;
+    line-height: 18px;
+}
+@media (min-width: 850px) {
+
+    form {
+        box-shadow: 0 0 2em 0 rgba(0, 0, 0, .5);
+        max-width: 750px;
+        background-color: #f8f4e3;
+    }
+
+    label {
+        text-align: left;
+        font-size: 16px;
+    }
+}
+.sectionInput{
+    padding-bottom: 20px;
+}
+
+
+/*dit is instagram*/
+@media only screen and (max-width: 679px) {
+    .titleInstagram {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #instagram {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: fit-content(100%);
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 680px) {
+    .titleInstagram {
+        grid-column: 1/3;
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #instagram {
+        display: grid;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 1021px) {
+    .titleInstagram {
+        grid-column: 1/4;
+        text-align: center;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #instagram {
+        display: grid;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+.instaFeedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*dit is catalogus ------------------------------------------------------------------------------------------ */
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+    position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #000000;
+    background-color: #FFFFFF;
+    opacity: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position "next button" */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*  hover */
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+    opacity: 100%;
+}
+/*positioning en responsive web design op catalog*/
+
+#gridboxCatalog p{
+    text-align: center;
+}
+
+#catalogustitle{
+    font-size: 30pt;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    #gridboxCatalog{
+        display: grid;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns:repeat(2, 1fr) ;
+        padding: 10px;
+
+    }
+    p{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .pCatalogus {
+        grid-row: 3;
+    }
+    #slideshow1{
+        padding-right: 2px;
+        grid-row: 2;
+    }
+    #slideshow2{
+        padding-left: 2px;
+        grid-row: 2;
+    }
+    #slideshow3{
+        padding-right: 2px;
+        grid-row: 4;
+    }
+    #slideshow4{
+        padding-left: 2px;
+        grid-row: 4;
+    }
+}
+@media only screen and (min-width: 900px) {
+
+    #gridboxCatalog{
+        display: grid;
+        grid-template-columns:repeat(4, 1fr);
+        grid-template-rows: fit-content(100%);
+        padding: 8px;
+    }
+    p{
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    #slideshow1{
+        padding-left: 2px;
+        padding-right: 2px;
+
+    }
+    #slideshow2{
+        padding-left: 2px;
+        padding-right: 2px;
+
+    }
+    #slideshow3{
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    #slideshow4{
+        padding-left: 2px;
+        padding-right: 2px;
+
+    }
+}
+
+
+#designtitle{
+    font-size: 20pt;
+    text-align: center;
+}
