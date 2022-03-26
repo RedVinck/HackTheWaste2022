@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f125856-e8ed-4e59-8199-4019f84d642a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/bag11.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bag12.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bag13.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bag14.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/handbag.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
-    </list>
-    <list id="bf933e5b-29bf-4796-9020-f13b1c53013b" name="Changes by DePau" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/bag21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bag22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bag23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bag24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bag25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bag31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/bag32.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
+    <list id="bf933e5b-29bf-4796-9020-f13b1c53013b" name="Changes by DePau" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,18 +29,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/index.html">
-      <ranges>
-        <range start1="2" end1="33" start2="2" end2="36" changelist="0f125856-e8ed-4e59-8199-4019f84d642a" />
-        <range start1="34" end1="62" start2="37" end2="77" changelist="bf933e5b-29bf-4796-9020-f13b1c53013b" />
-        <range start1="63" end1="64" start2="78" end2="82" changelist="bf933e5b-29bf-4796-9020-f13b1c53013b" />
-        <range start1="65" end1="98" start2="83" end2="273" changelist="0f125856-e8ed-4e59-8199-4019f84d642a" />
-        <range start1="99" end1="212" start2="274" end2="431" changelist="0f125856-e8ed-4e59-8199-4019f84d642a" />
-        <range start1="213" end1="214" start2="432" end2="433" changelist="bf933e5b-29bf-4796-9020-f13b1c53013b" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -84,7 +69,7 @@
       <updated>1648231784807</updated>
       <workItem from="1648231785957" duration="700000" />
       <workItem from="1648237622166" duration="9045000" />
-      <workItem from="1648254302567" duration="6758000" />
+      <workItem from="1648254302567" duration="7136000" />
     </task>
     <servers />
   </component>

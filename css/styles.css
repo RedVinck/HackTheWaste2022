@@ -11703,7 +11703,7 @@ body {
 
 /* -------------------------------------------------slideshow maybe---------------------------------------------------------------------------- */
 
-.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+.mySlides1, .mySlides2, .mySlides3 {
   display: none
 }
 
@@ -11796,7 +11796,7 @@ img {
 
   #gridboxCatalog{
     display: grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(3, 1fr);
     grid-template-rows: fit-content(100%);
     padding: 8px;
   }
