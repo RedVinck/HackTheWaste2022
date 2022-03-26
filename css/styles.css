@@ -8015,7 +8015,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #FADCD9 !important;
 }
 
 .bg-dark {
@@ -11474,7 +11474,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  background-color: #fff;
+  background-color: #FADCD9;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -11504,12 +11504,12 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: rgba(250, 220, 217, 0.5);
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.1);
   }
   #mainNav .nav-link {
     transition: none;
