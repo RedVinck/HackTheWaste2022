@@ -11699,3 +11699,128 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+
+/* -------------------------------------------------slideshow maybe---------------------------------------------------------------------------- */
+
+.mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+  display: none
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  max-height: 250px;
+  margin: auto;
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #000000;
+  background-color: #FFFFFF;
+  opacity: 30%;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position "next button" */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/*  hover */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+  opacity: 100%;
+}
+/*positioning en responsive web design op catalog*/
+
+#gridboxCatalog p{
+  text-align: center;
+}
+
+#catalogustitle{
+  font-size: 30pt;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  #gridboxCatalog{
+    display: grid;
+    grid-template-rows: fit-content(100%);
+    grid-template-columns:repeat(2, 1fr) ;
+    padding: 10px;
+
+  }
+  p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .pCatalogus {
+    grid-row: 3;
+  }
+  #slideshow1{
+    padding-right: 2px;
+    grid-row: 2;
+  }
+  #slideshow2{
+    padding-left: 2px;
+    grid-row: 2;
+  }
+  #slideshow3{
+    padding-right: 2px;
+    grid-row: 4;
+  }
+  #slideshow4{
+    padding-left: 2px;
+    grid-row: 4;
+  }
+}
+@media only screen and (min-width: 900px) {
+
+  #gridboxCatalog{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: fit-content(100%);
+    padding: 8px;
+  }
+  p{
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  #slideshow1{
+    padding-left: 2px;
+    padding-right: 2px;
+
+  }
+  #slideshow2{
+    padding-left: 2px;
+    padding-right: 2px;
+
+  }
+  #slideshow3{
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  #slideshow4{
+    padding-left: 2px;
+    padding-right: 2px;
+
+  }
+}
